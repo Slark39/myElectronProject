@@ -1,0 +1,9 @@
+.wrapper {
+    @apply flex flex-row justify-between items-center;
+    .addInfo{
+        @apply flex flex-col justify-between items-center basis-1/6 mr-11;
+    }
+    .mainInfo{
+        @apply flex flex-col justify-between items-center basis-5/6;
+    }
+}
